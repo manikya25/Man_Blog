@@ -1,0 +1,101 @@
+.signup-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url("../../../assets/background_sign.jpg");
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+}
+
+.signup-input {
+  width: 100px;
+}
+
+.signup-page {
+  max-width: 500px;
+  margin: 11rem auto;
+  padding: 3rem;
+  background: #f7f7f7;
+  border-radius: 9px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  overflow: auto;
+  height: 700px;
+
+  h2 {
+    margin-bottom: 0.5rem;
+    color: black;
+  }
+
+  .create {
+    text-align: center;
+  }
+
+  .signup-form {
+    input {
+      display: flex;
+      align-items: flex-start;
+      width: 100%;
+      padding: 0.75rem;
+      font-size: 1rem;
+      box-sizing: border-box;
+      outline: none;
+      border-radius: 8px;
+      border: 1px solid #ddd;
+      margin-bottom: 12px;
+
+      transition: all 0.3s ease, box-shadow 0.2s ease; // Smooth transition for hover effects
+
+      &:hover {
+        border: 3px solid #adff15; // Change border color on hover
+        // box-shadow: #BAFF39; // Add a glowing effect
+        // background-color: #BAFF39; // Optional: light background change
+        color: white;
+        transform: scale(1.1);
+        box-shadow: 0px 6px 8px #ccc;
+      }
+    }
+
+    label {
+      display: flex;
+      font-size: 22px;
+      font-weight: 10;
+      margin-left: 9px;
+    }
+
+    .button-c{
+      display: flex;
+      flex-direction: column;
+      // gap: 10px;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .signup-btn {
+      margin-top: auto;
+      width: 50%;
+      padding: 10px;
+      background-color: #6E6E6E;
+      color: #BAFF39;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: all 0.3s ease, box-shadow 0.2s ease;
+      margin-top: 25px;
+      font-size: 25px;
+
+      &:hover {
+        transform: scale(1.1);
+        background-color: #BAFF39;
+        color: grey;
+      }
+    }
+  }
+}
+
+.create {
+  font-size: 22px;
+}

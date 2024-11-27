@@ -1,0 +1,18 @@
+.recent-blogss{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+    width: 80vw;
+    margin: inherit;
+}
+
+.users-section{
+    display: flex;
+    justify-content: center;
+}
+
+.no-results{
+    font-size: 25px;
+    padding: 40px;
+}

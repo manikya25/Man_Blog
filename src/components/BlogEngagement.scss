@@ -1,0 +1,17 @@
+.blog-engagement {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+button {
+  background: transparent;
+  border: none;
+  font-size: 21px;
+  cursor: pointer;
+}
+
+.like-icon:hover,
+.share-icon:hover {
+  color: #BAFF39;
+}

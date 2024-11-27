@@ -1,0 +1,31 @@
+.blog-view {
+  max-width: 1650px;
+  width: 100%;
+}
+
+.blog-view h2,
+.blog-view p,
+.blog-view .blog-content,
+.blog-view .blog-image,
+.blog-view .comment-box {
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+
+.blog-image {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.comment-list {
+  list-style-type: none;
+  padding: 0px;
+  text-align: left;
+}
+
+.comment-item {
+  font-size: 1.2em;
+  text-align: left;
+  margin-bottom: 10px;
+}

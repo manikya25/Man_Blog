@@ -1,0 +1,45 @@
+* {
+  // font-family: "Roboto", sans-serif;
+  word-spacing: 0.15em;
+  background: transparent;
+}
+
+.quill-icons .ql-editor {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+}
+
+.quill-icons .ql-editor img {
+  display: block;
+  margin: 0 auto;
+}
+
+.quill-editor-content img {
+  max-width: 100%;
+  min-width: 90%;
+  height: auto;
+  aspect-ratio: 35/19;
+  max-width: 600px;
+  object-fit: contain;
+  display: block;
+  margin: 2rem;
+  // margin-bottom: 5rem;
+}
+
+.ql-editor {
+  ul,
+  ol {
+    margin-left: 20px;
+    padding-left: 20px;
+    text-align: left !important;
+
+    li {
+      text-align: left !important;
+      margin-left: 0 !important;
+      padding-left: 0 !important;
+    }
+  }
+}

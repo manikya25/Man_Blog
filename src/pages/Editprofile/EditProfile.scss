@@ -1,0 +1,53 @@
+.edit-profile {
+  max-width: 100%;
+  // height: 650px;
+  text-align: left;
+  // margin: 11rem auto;
+  padding: 3rem;
+  margin-left: 10px;
+  border-radius: 10px;
+
+  .name {
+    font-size: 20px;
+    margin-bottom: 0;
+    font-weight: 10;
+  }
+
+  .inp {
+    margin-bottom: 20px;
+    border-radius: 8px;
+  }
+
+  h2 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+  }
+}
+
+.edit-profile .input {
+  padding-left: 10px;
+  transition: all 0.3s ease, box-shadow 0.2s ease;
+
+  &:hover{
+    transform: scale(1.1);
+  }
+}
+
+.editprofile {
+  font-size: 22px;
+}
+
+.save-btn {
+  color: grey;
+  background-color: #BAFF39;
+  margin: 20px auto;
+  font-size: 18px;
+  display: block;
+  border: none;
+  border-radius: 8px;
+
+  &:hover {
+    background-color: grey;
+    color: #BAFF39;
+  }
+}

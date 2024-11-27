@@ -1,0 +1,19 @@
+.about{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+  .about-page{
+    max-width: 1200px;
+    padding: 80px;
+  }
+
+.heading{
+  text-align: center;
+}
+
+.intro-paragraph{
+  text-align: justify;
+  font-size: 1.6rem;
+}
